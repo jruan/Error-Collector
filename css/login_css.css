@@ -1,0 +1,40 @@
+body{
+  padding-top: 12%;
+  height:100%;
+}
+
+.form-signin-heading{
+	margin-bottom: 10px;
+	font-size: 40pt;
+	color:white;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #202020;
+}
+
+.text-muted {
+  margin: 20px 0;
+}
+			
+.dropdown-menu li{
+	cursor:pointer;	
+	border-bottom:1px solid white;
+}
+
+.form-signin{
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color:#202020;
+ }
+ 
+ #form-signin-container{
+	max-width: 450px;
+ }

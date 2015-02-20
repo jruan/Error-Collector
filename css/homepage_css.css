@@ -1,0 +1,71 @@
+body{
+	padding-top:50px;
+}
+
+.jumbotron{
+				background-image: url("http://104.131.199.122/images/dashboard_jumbotron.jpg")!important;
+				height:250px !important;
+				text-align:center!important;
+				background-size:100%;
+			}
+
+	
+
+#user{
+				color:#CC0000!important;
+}
+
+.dropdown-menu{
+	background-color:#202020!important;
+}
+			
+.dropdown-menu li a{
+	color:white!important;
+}
+
+.dropdown-menu li a:hover{
+	color:black!important;
+}
+
+.form-signin{
+  max-width: 450px;
+  margin: 0 auto;
+  background-color:white!important;
+ }
+
+ .form-signin-container{
+        max-width: 400px;
+ }
+
+#table-scroll, #table-scroll-2 {
+  height:525px;
+  margin-left:20px;
+  overflow:auto;
+}
+
+.table-responsive table thead th .header {
+  z-index:2;
+}
+
+.table-responsive table tbody td:nth-child(2) {
+  color:red;
+}
+
+
+.col-sm-12 hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0; }
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width:100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #202020;
+}
+
+.text-muted {
+  margin: 20px 0;
+}
+

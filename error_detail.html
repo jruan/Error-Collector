@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "height= device-height, width = device-width, initial-scale = 1.0">
+		<link rel ="stylesheet" type = "text/css" href = "http://104.131.199.122/css/bootstrap.css">
+		<link rel = "stylesheet" type = "text/css" href = "http://104.131.199.122/css/error_detail_css.css">
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!--Import JavaScript-->
+		<script src = "http://104.131.199.122/javascript/bootstrap.js"></script>
+		<title> Error Detail </title>
+	</head>
+
+	<body>
+		<div class = "navbar navbar-inverse navbar-fixed-top" role = "navigation">
+			<div class ="container">
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".collapseNavHeader"> 
+
+						<!-- Number of lines to show in dropdown bar when screen is resized -->
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+
+				</button>
+			
+				<div class = "collapse navbar-collapse collapseNavHeader">
+						<ul class = "nav navbar-nav navbar-right">
+							<li><a href="http://104.131.199.122/marketing_page.php"> Features </a></li>
+							<li> <!-- Indent home using "active" --> 
+								<a href = "http://104.131.199.122/index"> Contact </a>
+							</li>
+							<li>
+									User
+									<!-- "caret" for down arrow -->
+                                                         </li>
+						</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class = "container">
+		    <div class = "row">
+			<div class="col-sm-12">
+				<div class="table-responsive" style="position:relative;">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th><span class="header">Date</span></th>
+									<th><span class="header">Error Name</span></th>
+									<th><span class="header">Error Description</span></th>
+								</tr>
+							</thead>
+							
+							<tbody>
+								<tr>
+									<td>Mon Aug 18, 2014 14:23:09</td>
+									<td>Error 404</td>
+									<td>In file js_home.js, can not find requested document http://goole.com at line 141, 'window.location = "http://goole.com";' </td>
+								</tr>
+							</tbody>
+						</table>
+				</div>
+			    </div>
+			</div>
+
+		     <div class = "row">
+				<div class = "col-sm-6">
+					<h3> Priority </h3>
+					<input type = "radio" value = "1">&emsp;
+					<input type = "radio" value = "2">&emsp;
+					<input type = "radio" value = "3">&emsp;
+					<input type = "radio" value = "4">&emsp;
+					<input type = "radio" value = "5">&emsp;<br>
+					<b>1</b>&emsp;&nbsp;&nbsp;<b> 2</b>&emsp;&nbsp;<b> 3</b>&nbsp;&emsp;<b> 4</b>&nbsp;&nbsp;&emsp;<b> 5</b>
+					<br><br>
+					<h3>Users in Group</h3>
+				
+					<div class="table-responsive" style="position:relative;">
+					<div id = "table-scroll">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th><span class="header">User</span></th>
+									<th><span class="header">Status</span></th>
+									<th><span class="header">Logged On</span></th>
+								</tr>
+							</thead>	
+							<tbody>
+									<tr>
+										<td>User 1</td>
+										<td>Developer Manager</td>
+										<td>Available</td>
+									</tr>	
+									<tr>
+										<td>User 2</td>
+										<td>Developer</td>
+										<td>Logged Off</td>
+									</tr>
+									<tr>
+
+										<td>User 3 </td>
+										<td>Developer</td>
+										<td>Available</td>
+									</tr>
+							</tbody>
+
+						</table>
+					</div>
+					</div>
+				</div>
+		   
+		    		<div class = "col-sm-6">
+					<h3> Comment </h3>
+					<div id = "comment_container">
+						<div id = "comment_box">
+							<ul id = "comments">	
+								<li><strong>user1</strong>:&emsp; to solve this error..........</li>
+								<li><strong>user2</strong>:&emsp; I came across this problem as well and this is how i solved it...........</li>
+								<li><strong>user3</strong>:&emsp; Solved it! Thanks everyone! </li>
+							</ul>
+						</div>
+						<h4> Leave a Comment </h4>	
+						<ul id="rich_comment">
+							<li>
+								<b>Font:</b>
+								<select>
+									<option>12</option>
+									<option>14</option>
+									<option>16</option>
+									<option>20</option>
+								</select>
+							</li>
+							<li>
+								<b>Font Type:</b>
+								<select>
+									<option> Times New Roman</option>
+									<option> Serrif</option>
+									<option> Comic</option>
+									<option> Impact</option>
+									<option>Arial</option>
+								</select>
+							</li>
+							<li>
+								<b>Upload:&emsp; </b>
+								<form>
+									<input type="text" name ="url_path" placeholder="Url Path to Screenshot">
+								</form>
+							</li>	
+						</ul>
+						<br>
+						<form action="#">
+							<textarea rows="5" cols = "90" placeholder="Leave a Comment"></textarea>
+						</form>
+					</div>
+		     		</div>
+		     </div>
+		     <br><br>
+                </div>
+		<br><br><br>
+		
+		<div class="footer">
+			<div class="container">
+					<p class = "text-muted"><a href = "http://104.131.199.122/index">About Us</a></p>
+			</div>
+		</div>
+	</body>
+</html>

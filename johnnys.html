@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel = "stylesheet" type ="text/css" href = "css/pagelayouts_css.css">
+<link rel = "stylesheet" type = "text/css" href = "css/profile_css.css">
+<link rel="icon" type="image/ico" href="http://104.131.199.122/favicon.ico?v=2"/>
+<link rel="shortcut icon" href="http://104.131.199.122/favicon.ico?v=2" type="image/icon">
+
+<meta charset = "UTF-8">
+
+<script>
+	function change_profile(user){
+		if(user == "home"){
+			window.location.href = "index";
+		}
+		else if(user == "jason"){
+			window.location.href = "jason";
+		}
+		else if(user =="nida"){
+			window.location.href = "nida";
+		}
+		else if(user == "johnny"){
+			window.location.href = "johnnys";
+		}
+		else if(user == "heng"){
+			window.location.href = "heng";
+		}
+	}
+	
+</script>
+
+<title> Team 200 ok </title>
+</head>
+
+<body>
+
+	<div id = "navbar">
+		<header>
+			<a href = "index"><img src = "images/memebro.jpg" alt = "team_logo" style ="margin-top: 1%;height: 4%;"></a>
+			<span id = "team_name"> <b> Team 200 Ok </b> </span>
+			<br>
+			 <button type = "button" style="margin-left:661px;" onclick = "change_profile('home');"><b>Home</b></button>
+                        <button type = "button" style= "margin-left:745px;background-color:white;" onclick = "change_profile('johnny');"><b>Johnny</b></button>
+                        <button type = "button" style= "margin-left:830px;" onclick = "change_profile('heng');"><b>Heng</b></button>
+                        <button type = "button" style= "margin-left:915px;" onclick = "change_profile('nida');"><b>Nida</b></button>
+                        <button type = "button" style = "margin-left:1000px;" onclick = "change_profile('jason');"><b>Jason</b></button>
+                       
+		</header>
+	</div>
+	
+	<div id = "body">
+		<div id = "profile">
+			<div id = "users_pic">
+				<img src= "images/johnny.jpg" alt = "johnny">
+			</div>
+			
+			<div id = "users_description">
+				<b> Johnny Chau </b><br><br>
+				<b style="font-size:20pt;">jtc003@ucsd.edu </b>
+				<p style="font-size:14pt;">  I am a fourth year Computer Science major coming out of Los Angeles, California. I am into fitness, 
+							     photography, sports, and hanging out with fun people. One thing that people should know about me is that I
+							     like to dream big. 
+							     May my wildest dreams become reality or may I die trying to conceive them. </p>
+
+			</div>
+		</div>
+		
+		<div id="right_section">
+			<br><b> Assignments </b>
+			<ul>
+				<li onclick = "window.location = 'http://104.131.199.122/homework1';"> Homework 1 </li>
+                                <li onclick = "window.location = 'http://104.131.199.122/marketing_page';"> Homework 2 </li>
+                                <li onclick = "window.location = 'http://104.131.199.122/marketing_page.php';"> Homework 3 </li>
+                                <li style="cursor:initial; color:black;"> Homework 4 </li>
+			</ul>
+			<br><br><br>
+			<b> Recent Updates </b>
+			<br>
+			<p style="margin-left:20px;font-size:13pt;"> The teampage has been implemented. We are still lacking a theme for the team pages if anyone even wants a theme. Otherwise, forget it. Everyone please add your own picture and description into the html files that is named after your name. Thanks! </p>
+		</div>
+		
+	</div>
+	
+	
+	<footer>
+			<ul>
+				<li><a href = "index">about us</a></li>
+			</ul>
+	</footer>
+
+</body>
+</html>

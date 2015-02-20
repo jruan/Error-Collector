@@ -1,0 +1,152 @@
+body{
+	padding-top:50px;
+}
+
+.jumbotron{
+				background-image: url("http://104.131.199.122/images/dashboard_jumbotron.jpg")!important;
+				height:250px !important;
+				text-align:center!important;
+				background-size:100%;
+			}
+
+	
+
+#user{
+				color:#CC0000!important;
+}
+			
+.dropdown-menu{
+	background-color:#202020!important;
+}
+			
+.dropdown-menu li a{
+	color:white!important;
+}
+
+.dropdown-menu li a:hover{
+	color:black!important;
+}
+
+#date, #error_name, #error_description{
+	list-style-type:none !important;
+}
+
+
+#table-scroll, #table-scroll-2 {
+  height:300px;
+  overflow:auto; 
+  border-left:1px solid black; 
+  border-bottom:1px solid black;
+}
+
+.table-responsive table thead th .header {
+  z-index:2; 
+}
+
+.table-responsive table tbody td:nth-child(2) {
+  color:red;
+}
+
+#script_container{
+	height:270px;
+	overflow:auto;
+    	border-left:1px solid black;
+	border-bottom:1px solid black;	
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0; }
+
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width:100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #202020;
+}
+
+.text-muted {
+  margin: 20px 0;
+}
+
+.pieContainer {
+  height: 100px;
+}
+	    
+.pie {
+	          position: absolute;
+	          width: 100px;
+	          height: 100px;
+	          -moz-border-radius: 50px;
+	          -webkit-border-radius: 50px;
+	          -o-border-radius: 50px;
+	          border-radius: 50px;
+	          clip: rect(0px, 50px, 100px, 0px);
+}
+	     
+.hold {
+	          position: absolute;
+	          width: 100px;
+	          height: 100px;
+	          -moz-border-radius: 50px;
+	          -webkit-border-radius: 50px;
+	          -o-border-radius: 50px;
+	          border-radius: 50px;
+	          clip: rect(0px, 100px, 100px, 50px);
+}
+
+#pieSlice1 .pie {
+			  background-color: #1b458b;
+	          -webkit-transform:rotate(150deg);
+	          -moz-transform:rotate(150deg);
+	          -o-transform:rotate(150deg);
+	          transform:rotate(150deg);
+}
+	    
+#pieSlice2 {
+	          -webkit-transform:rotate(150deg);
+	          -moz-transform:rotate(150deg);
+	          -o-transform:rotate(150deg);
+	          transform:rotate(150deg);
+}
+	     
+#pieSlice2 .pie {
+	          background-color: orange;
+	          -webkit-transform:rotate(40deg);
+	          -moz-transform:rotate(40deg);
+			  -o-transform:rotate(40deg);
+	          transform:rotate(40deg);
+}
+	 
+#pieSlice3 {
+	          -webkit-transform:rotate(190deg);
+	          -moz-transform:rotate(190deg);
+	          -o-transform:rotate(190deg);
+	          transform:rotate(190deg);
+}
+	   
+#pieSlice3 .pie {
+	          background-color: #cc0000;
+	          -webkit-transform:rotate(70deg);
+	          -moz-transform:rotate(70deg);
+	          -o-transform:rotate(70deg);
+	          transform:rotate(70deg);
+}
+
+#pieSlice4 {
+	          -webkit-transform:rotate(260deg);
+	          -moz-transform:rotate(260deg);
+	          -o-transform:rotate(260deg);
+	          transform:rotate(260deg);
+			  }
+			  
+#pieSlice4 .pie {
+	          background-color: #cc00ff;
+	          -webkit-transform:rotate(100deg);
+	          -moz-transform:rotate(100deg);
+	          -o-transform:rotate(100deg);
+	          transform:rotate(100deg);
+}
